@@ -1,0 +1,15 @@
+/* CSS do Cabeçalho */
+.conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0A2239;
+    height: 100px;
+    
+}
+
+img{
+    
+    width: 180px;
+    
+}

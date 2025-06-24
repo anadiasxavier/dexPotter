@@ -1,0 +1,40 @@
+/* CSS BARRA DE NAVEGAÇÃO */
+.conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #114d6d;
+    padding: 5px;
+    height: 50px;
+}
+
+ul{
+    list-style: none;
+    margin-right: 20px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    display: inline-flex;
+   
+}
+
+li{
+    margin-left: 30px;
+    color: #b8e5f5;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    align-items: center;
+    gap: 5px;
+    display: flex;
+   
+}
+
+span{
+    margin-left: 1vh;
+    color: #b8e5f5;
+}
+
+.link{
+    text-decoration: none;
+}
