@@ -1,0 +1,17 @@
+/* container principal */
+.container{
+    background-color: #1A472A;
+    padding: 10px ;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+/* texto */
+.container p{
+    font-family: "Montserrat", sans-serif;
+    color:#fff;
+    text-align: center;
+}
+
+

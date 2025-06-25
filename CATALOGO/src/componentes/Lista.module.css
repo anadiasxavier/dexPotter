@@ -1,9 +1,0 @@
-/* CSS da Lista */
-.conteiner{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10;
-    justify-content: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #acccd8;
-}

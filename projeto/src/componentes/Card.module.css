@@ -1,4 +1,4 @@
-/* CSS CARD */
+/* CSS CARD
 .conteiner{
     position: relative;
     width: 280px;
@@ -11,7 +11,7 @@
 
     
 }
-/* todos os cards */
+/* todos os cards 
 figure{
     display: flex;
     flex-wrap: wrap;
@@ -20,7 +20,7 @@ figure{
 
 }
 
-/* descrição */
+/* descrição 
 .conteiner p{
     font-size: 13px;
     margin-top: 5px;
@@ -29,14 +29,14 @@ figure{
     margin-left: 30px;
 
 }
-/* imagem do card */
+/* imagem do card 
 .conteiner img {
     width: 200px;
     height: 300px;
     margin-left: 40px;
 }
 
-/* titulo */
+/* titulo 
 .conteiner h3{
     font-family: "Montserrat", sans-serif;
     align-items: center;
@@ -46,4 +46,35 @@ figure{
     margin-bottom: 10px;
 }
 
+ */
 
+ .card {
+  background-color: #1A472A; 
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card h3 {
+  margin: 0.5rem 0 0.2rem;
+  font-size: 1.1rem;
+  color: #dedede;
+}
+
+.card p {
+  margin: 0;
+  color: #666;
+  font-size: 0.95rem;
+}

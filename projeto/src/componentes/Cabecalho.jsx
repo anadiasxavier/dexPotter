@@ -2,13 +2,13 @@
 
 //Imports do componente
 import estilos from './Cabecalho.module.css';
-import logo from '../assets/NaFlix.png';
+
 
 //No header foi utilizado uma imagem para o seu logotipo.
 export function Cabecalho(){
     return(
         <header className={estilos.conteiner}>
-            <img src={logo} alt="logo do NaFlix" />
+            <h1>Ana Potter</h1>
         </header>
     )
 }
