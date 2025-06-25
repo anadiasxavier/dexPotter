@@ -8,7 +8,6 @@ import { Rodape } from "../componentes/Rodape"
 export function Inicial(){
     return(
         <> 
-        {/* Nela irá ter, o cabecalho, barraNavegacao, Outlet que deixa o conteudo dinamico para as rotas e o rodape */}
         <Cabecalho/>
         <Outlet/>
         <Rodape/>

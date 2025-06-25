@@ -4,7 +4,7 @@
 import estilos from './Cabecalho.module.css';
 
 
-//No header foi utilizado uma imagem para o seu logotipo.
+//No header foi utilizado um h1
 export function Cabecalho(){
     return(
         <header className={estilos.conteiner}>

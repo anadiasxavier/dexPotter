@@ -7,9 +7,10 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
+/* logo */
 .conteiner h1 {
     font-family: 'HarryP';
     font-size: 60px;
     margin: 0;
-    color: #c6c6c6;
+    color: #e0e0e0;
 }
