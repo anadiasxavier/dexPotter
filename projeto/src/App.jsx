@@ -1,5 +1,5 @@
 
-//imports do app
+//imports do APP
 
 import { BrowserRouter } from "react-router-dom";
 import { Rotas } from "./Rotas/Rotas";
